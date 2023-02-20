@@ -1,12 +1,12 @@
-﻿using EmployeeStatus;
+﻿using DaliyWages;
 
-namespace EmployeeAttendance
+namespace DaliyEmployeeWages
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Attendance.Employee();
+            EmployeeWage.dayWages();
         }
     }
 }
