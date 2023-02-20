@@ -1,13 +1,12 @@
-﻿using PartTimeWages;
+﻿using EmployeePartTimeWage;
 
-namespace PartTimeWages
+namespace SwitchCaseSolution
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            EmployeePartTime.partTime();
-
+            partTimeWages.employeeWage();
         }
     }
 }
