@@ -1,12 +1,12 @@
 ﻿using EmployeeWages;
 
-namespace EmployeeMonthlyWages
+namespace EmployeeTotalWages
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            monthlyWage.Wages();
+            totalWage.wages();
         }
     }
 }
