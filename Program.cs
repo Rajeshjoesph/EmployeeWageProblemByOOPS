@@ -1,12 +1,13 @@
-﻿using DaliyWages;
+﻿using PartTimeWages;
 
-namespace DaliyEmployeeWages
+namespace PartTimeWages
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            EmployeeWage.dayWages();
+            EmployeePartTime.partTime();
+
         }
     }
 }
