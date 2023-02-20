@@ -1,12 +1,12 @@
-﻿using EmployeePartTimeWage;
+﻿using EmployeeWages;
 
-namespace SwitchCaseSolution
+namespace EmployeeMonthlyWages
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            partTimeWages.employeeWage();
+            monthlyWage.Wages();
         }
     }
 }
